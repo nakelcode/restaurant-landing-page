@@ -1,0 +1,228 @@
+body{
+  color:#533831;
+  margin:0;
+  background-color: #f0f3de;
+ 
+} 
+.home{
+  background-image: url('');
+  background-size: cover;
+  height: 700px;
+  background-position: center;
+}
+.bio h2{
+  font-size: 400%;
+
+}
+.navbar {
+  color: #533831;
+  padding: 10px 0;
+  font-size: 100%;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Marcellus" , serif;
+}
+.navbar a{
+  text-decoration: none;
+  color: #533831;
+}
+.navbar a:hover{
+  color:#684d8f;
+
+}
+
+.container {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #533831;
+  margin: 4px 0;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-list li {
+  margin-right: 20px;
+}
+.logo{
+  color:#533831;
+  text-decoration: none;
+  font-size: 170%;
+  font-weight: 600;
+  font-family: "Permanent Marker", cursive;
+  text-align: left;
+  padding-left:7px;
+}
+.logo a{
+  color:#533831;
+  text-decoration: none;
+}
+.logo a:hover{
+  color:#533831;
+  text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .nav-list {
+      display: none;
+      flex-direction: column;
+      background-color: #f0f3de;
+      padding: 10px;
+      position: absolute;
+      top: 30px;
+      right: 0;
+      width: 100%;
+  }
+
+  .nav-list.active {
+      display: flex;
+  }
+
+  .nav-list li {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+}
+header{
+ position:relative; 
+ position: fixed;
+ top: 0;
+ width: 100%;
+ background-color: #f0f3de;
+ transition: background-color 0.3s ease; /* Smooth transition */
+ z-index: 500;
+} 
+.bio{
+  background-image: url('https://i.imgur.com/7u1c8rN.png');
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+}
+.about{
+  text-align:center;
+}
+.about p{
+  font-family: "Red Hot Display", sans-serif;
+  font-size: 130%;
+}
+.about h3{
+  font-family: "Permanent Marker", cursive;
+  font-size: 200%;
+  font-weight: 600;
+
+} 
+.foods{
+  display: flex;
+  flex-wrap: wrap;
+}
+.foods h4{
+  font-family:"Marcellus",serif;
+  font-size: 120%;
+  font-weight: 600;
+}
+.foods p{
+  font-family: "Red Hot Display", sans-serif;
+  font-size: 90%;
+  font-weight: 600;
+}
+
+.foods img{
+  width:300px;
+  display: block;
+  height:350px;
+}
+.foods div{
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.review1{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.avatar{
+  border-radius: 50%;
+  width:30%;
+  display:block;
+}
+.review1 div{
+  margin-left:40px;
+  margin-bottom: 10px;
+
+}
+.review1 h5{
+  font-size:110% ;
+  font-family: "Marcellus", serif;
+}
+.review1 p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 100%;
+  font-weight: 600;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  padding-right:5px;
+  padding-left: 5px;
+}
+footer p{
+  text-align: center;
+  font-size: 100%;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #000000;
+  color: white;
+}
+
+
+
+.fa-linkedin {
+  background:#000000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #000000;
+  color: white;
+}
+.social{
+  text-align: center;
+}
+
+
+
+
+
