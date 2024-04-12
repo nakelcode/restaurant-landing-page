@@ -1,2 +1,3 @@
 # restaurant-landing-page
-restaurant landing page is a fully responsive business website,responsive for all devices, built using HTML and CSS
+[I'm an inline-style link](https://www.google.com)
+Restaurant landing page is a fully responsive business website,responsive for all devices, built using HTML and CSS
