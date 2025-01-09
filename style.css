@@ -1,0 +1,139 @@
+body{
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    font-family: "Montserrat", monospace;
+    position: relative;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container,
+.content-three{
+    margin-top: 30px; 
+}
+h1{
+    color: rgb(6, 212, 6);
+    font-family: "Michroma", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.restaurant-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 0;
+}
+#first-anchor{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+#first-anchor:hover{
+    padding: 10px 25px;
+    color: white;
+}
+.dish{
+    display: flex;
+    flex-wrap: wrap;
+}
+.dishes,
+.special{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border-radius: 3px;
+    transition: transform 1s;
+}
+.dishes:hover,
+.special:hover{
+    transform: scale(1.5);
+}
+.content-two h2{
+    text-align: center;
+    color: rgb(0, 0, 255);
+    font-family: "Michroma", sans-serif;
+}
+.content-three h2{
+    color: rgb(241, 96, 96);
+    font-family: "Michroma", sans-serif;
+}
+.content-three p,
+.content-one p{
+    text-align: justify;
+    width: 70%;
+}
+.content-four{
+    background-color: blue;
+    color: white;
+    width: 350px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+.content-four h2{
+    font-family: "Michroma", sans-serif;
+}
+#order{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+header{
+    background-color: black;
+    z-index: 1000;
+    border-radius: 15px;
+    padding: 15px 15px;
+    margin: 0;
+}
+nav{
+    display: flex;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    font-family: "Michroma", serif;
+    transition: color 2s;
+}
+.navigation-links{
+    position: absolute;
+    right: 0;
+}
+.navigation-links a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    transition: color 2s;
+}
+.navigation-links a:hover,
+.logo:hover{
+    color: green;
+}
+#orders{
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: background-color 2s, color 2s;
+}
+#orders:hover{
+    background-color: green;
+    color: white;
+}
